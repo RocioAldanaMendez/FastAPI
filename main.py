@@ -117,7 +117,7 @@ def get_actor(platform:str, year:int):
 """  
 
 def cargar_modelo():
-    with open('C:/Users/rocio/OneDrive/Escritorio/FastAPI//modelo_recomendacion.pkl', 'rb') as archivo_modelo:
+    with open('C:/Users/rocio/OneDrive/Escritorio/FastAPI/modelo_recomendacion.pkl', 'rb') as archivo_modelo:
         model = pickle.load('modelo_recomendacion.pkl')
     return model
 
