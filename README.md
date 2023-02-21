@@ -76,13 +76,15 @@ Para la creación de la API se utilizó el archivo main.py. Con eso, se construy
 
 ![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO1.gif)
 
+Link deploy: https://deta.space/discovery/r/cdbdpvvwlphtxscn
+
 ## MINI-DEMO2:
 - `Funcionalidad 1`: Consultar recomendación de pelicula ingresando id del usuario y el id de la pelicula.
 - `Demo`: 
 
 ![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO2.gif)
 
-
+Link deploy: https://huggingface.co/spaces/RoTesla/NISTELX
 
 ## ACCESO-AL-PROYECTO
             ## 🛠️ Abre y ejecuta el proyecto
