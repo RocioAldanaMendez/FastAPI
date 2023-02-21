@@ -40,14 +40,14 @@ El proyecto consiste en una ingesta de datos, para aplicar transformaciones en l
 ## SCOPE-OF-WORK
 La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 
-1. Análisis de datos de exploración (EDA) . Link: ![EDA-ETL-1](https://github.com/RocioAldanaMendez/FastAPI/blob/main/ETL-EDA/EDA_and_ETL_final.ipynb)
-2. Extraer-Transformar y Cargar con Python. Link: ![EDA-ETL-2](https://github.com/RocioAldanaMendez/FastAPI/blob/main/ETL-EDA/modelo2.ipynb)
-3. Generación/Creación de una API con FastAPI Link: ![main.py_API](https://github.com/RocioAldanaMendez/FastAPI/blob/main/main.py)
+1. Análisis de datos de exploración (EDA) . Link: (https://github.com/RocioAldanaMendez/FastAPI/blob/main/ETL-EDA/EDA_and_ETL_final.ipynb)
+2. Extraer-Transformar y Cargar con Python. Link: (https://github.com/RocioAldanaMendez/FastAPI/blob/main/ETL-EDA/modelo2.ipynb)
+3. Generación/Creación de una API con FastAPI Link: (https://github.com/RocioAldanaMendez/FastAPI/blob/main/main.py)
 4. Ejecutar la API en un host local y ejecutar consultas, visualizando con Uvicorn.
-5. Desarrollo de Modelo con Machine Learning. Link: ![ModeloML](https://github.com/RocioAldanaMendez/FastAPI/blob/main/archivo.modelo_recomendacion.gz )
+5. Desarrollo de Modelo con Machine Learning. (https://github.com/RocioAldanaMendez/FastAPI/blob/main/archivo.modelo_recomendacion.gz )
 6. Ajuste de parámetros del modelo
-7. Realización de un deployment en Delta Space para las 4 consultas generadas.  Link: ![Deploy_DETA](https://deta.space/discovery/r/cdbdpvvwlphtxscn)
-8. Realizacion de un deployment en Hugging Face Space utilizando Gradio.  Link: ![Deploy_Gradio](https://huggingface.co/spaces/RoTesla/NISTELX)
+7. Realización de un deployment en Delta Space para las 4 consultas generadas.  Link: (https://deta.space/discovery/r/cdbdpvvwlphtxscn)
+8. Realizacion de un deployment en Hugging Face Space utilizando Gradio.  Link: (https://huggingface.co/spaces/RoTesla/NISTELX)
 
 ![arquitectura](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/structure.png)
 
