@@ -7,22 +7,23 @@
   <summary>Tabla de contenido</summary>
   <ol>
     <li><a href="#header">TÍTULO E IMAGEN DE PORTADA</a></li>
-     <li><a href="#INDICE">ÍNDICE</a></li>
-     <li><a href="#INTRODUCCIÓN">INTRODUCCIÓN</a></li>
-     <li><a href="#OBJETIVO">OBJETIVO</a></li>
-    <li><a href="#SCOPE">SCOPE OF WORK</a></li>
+    <li><a href="#INDICE">ÍNDICE</a></li>
+    <li><a href="#INTRODUCCIÓN">INTRODUCCIÓN</a></li>
+    <li><a href="#OBJETIVO">OBJETIVO</a></li>
+    <li><a href="#SCOPE-OF-WORK">SCOPE OF WORK</a></li>
     <li><a href="#ESTADO">ESTADO</a></li>
-    <li><a href="#EDA - ETL">EDA - ETL</a></li>
-     <li><a href="#FastAPI">FastAPI</a></li>
+    <li><a href="#EDA-ETL">EDA - ETL</a></li>
+    <li><a href="#FastAPI">FastAPI</a></li>
     <li><a href="#MINI-DEMO">MINI-DEMO</a></li>
-    <li><a href="#ACCESO">ACCESO AL PROYECTO</a></li>
+    <li><a href="#ACCESO-AL-PROYECTO">ACCESO AL PROYECTO</a></li>
     <li><a href="#TECNOLOGÍAS">TECNOLOGÍAS UTILIZADAS</a></li>
     <li><a href="#DESARROLLADORES">DESARROLLADORES DEL PROYECTO</a></li>
+    <li><a href="#VIDEO">VIDEO</a></li>
     <li><a href="#CONCLUSIÓN">CONCLUSIÓN</a></li>
   </ol>
 </details>
 
-## **INTRODUCCION**
+## INTRODUCCIÓN
 Este proyecto forma parte de la etapa Labs del curso de Data Science de la Academia Soy Henry.
 En esta ocasión brinda fuentes de información asociadas a las plataformas de streaming, tales como:
 - Amazon Prime Video
@@ -30,11 +31,11 @@ En esta ocasión brinda fuentes de información asociadas a las plataformas de s
 - Hulu
 - Netflix
 
-## **OBJETIVO**
+## OBJETIVO
 El proyecto consiste en una ingesta de datos, para aplicar transformaciones en los datasets que permitan realizar consultas a través de una API. Los archivos originales están disponibles en este repositorio:  [Datasets](https://github.com/HX-PRomero/PI_ML_OPS)
 
 
-## SCOPE OF WORK
+## SCOPE-OF-WORK
 La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 
 1. Análisis de datos de exploración (EDA) . Link: ![EDA-ETL-1](https://github.com/RocioAldanaMendez/FastAPI/blob/main/ETL-EDA/EDA_and_ETL_final.ipynb)
@@ -53,7 +54,7 @@ La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 :white_check_mark: Proyecto finalizado :white_check_mark:
 </h4>
 
-## EDA - ETL
+## EDA-ETL
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width=40px height=40px/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width=40px height=40px/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width=40px height=40px/>  
 Como paso inicial, los datos se cargarán utilizando la biblioteca pandas. En esta instancia, se realizará un análisis exploratorio de los datos y se realizarán las transformaciones necesarias para limpiar los datos. transformaciones necesarias para la limpieza de datos. Para ver con más detalle el trabajo realizado con las ETD y ETL acceda al siguiente enlace: EDA/ETL
 
@@ -87,7 +88,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 
 
 
-## ACCESO AL PROYECTO
+## ACCESO-AL-PROYECTO
             ## 🛠️ Abre y ejecuta el proyecto
             -  Para correr la api completa es necesario descomprimir el archivo que contiene el modelo, para que la api consuma de ese archivo, y como se subió la carpeta donde se desarrolló la api completa, debe correr.
             -Para visualizar la salida final en los Deploys podes ir al link de punto 7 y 8 del scope of work, o ingresar al alrchivo txt que contiene todos los links.
