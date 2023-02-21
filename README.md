@@ -32,6 +32,7 @@ En esta ocasión brinda fuentes de información asociadas a las plataformas de s
 - Hulu
 - Netflix
 
+Y 8 datasets de ratings que contiene puntuaciones que usuarios otorgaron a ciertas peliculas.
 ## OBJETIVO
 El proyecto consiste en una ingesta de datos, para aplicar transformaciones en los datasets que permitan realizar consultas a través de una API. Los archivos originales están disponibles en este repositorio:  [Datasets](https://github.com/HX-PRomero/PI_ML_OPS)
 
