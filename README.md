@@ -57,26 +57,15 @@ La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 
 ## EDA-ETL
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width=40px height=40px/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width=40px height=40px/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width=40px height=40px/>  
-Como paso inicial, los datos se cargarán utilizando la biblioteca pandas. En esta instancia, se realizará un análisis exploratorio de los datos y se realizarán las transformaciones necesarias para limpiar los datos. transformaciones necesarias para la limpieza de datos. Para ver con más detalle el trabajo realizado con las ETD y ETL acceda al siguiente enlace: EDA/ETL
+Como paso inicial, los datos se cargarán utilizando la biblioteca pandas. En esta instancia, se realizará un análisis exploratorio de los datos y se realizarán las transformaciones necesarias para limpiar los datos. Para ver con más detalle el trabajo realizado con las ETD y ETL puede recurrir a la carpeta que contiene esos dos archivos. A continuación se adjunta una hoja de ruta que establecí para el desarrollo:
+
+![EDA-ETL](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/route_of_work.png)
 
 ## FastAPI
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width=40px height=40px/>
 Para la creación de la API se utilizó el archivo main.py. Con eso, se construyó la API localmente y se configuraron las funciones para realizar consultas. La API carga el CSV ya transformado para realizar las consultas y devuelve los resultados esperados.
 
-Para este proyecto solo se solicitaron 4 tipos de consultas.
-
-+ Duración máxima por tipo de película (película/serie), por plataforma y por año:
-     La solicitud debe ser: get_max_duration(año, plataforma, [min o temporada]).
-
-+ Número de películas y series (por separado) por plataforma.
-     La solicitud debe ser: get_count_plataform(plataforma)
-  
-+ Número de veces que se repite un género y plataforma con más frecuencia del mismo género y plataforma.
-     La solicitud debe ser: get_listedin('género')
-     Como ejemplo de género, puede usar 'comedia', que debería devolver un coño de 2099 para la plataforma de Amazon.
-
-+ Actor más repetido por plataforma y año.
-   La solicitud debe ser: get_actor(plataforma, año)
+![DEMO-API](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO-API.gif)
 
 ## MINI-DEMO1:
 - `Funcionalidad 1`: Consultar película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.
