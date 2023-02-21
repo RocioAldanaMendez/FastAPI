@@ -1,0 +1,373 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie recommendation</title>
+  <link rel="stylesheet" media="all" href="css/animate.css"/>
+</head>
+<body>
+<div id="container">
+  <h1>&bull; Longest running movie &bull;</h1>
+  <div class="underline">
+  </div>
+  <form action="/get_max_duration" method="get" id="get_max_duration">
+    <div class="year">
+      <label for="year"></label>
+      <input type="number" placeholder="Year" name="year" id="year_input" value=""><br>
+    </div>
+    
+    <div class="Platform">
+      <label for="Platform"></label>
+      <select placeholder="Platform" name="platform" id="platform_input" value="">
+        <option disabled hidden selected>platform</option>
+        <option>disney</option>
+        <option>hulu</option>
+        <option>amazon</option>
+        <option>netflix</option>
+      </select>
+    </div>
+    <div class="subject">
+      <label for="subject"></label>
+      <select placeholder="Tipo de duración" name="subject" id="subject_input" value="">
+        <option disabled hidden selected>Type of duration</option>
+        <option>min</option>
+        <option>season</option>
+      </select>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Try" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+
+<div id="container">
+  <h1>&bull; Number of films by platform with a score greater than: &bull;</h1>
+  <div class="underline">
+  </div>
+  <form action="/get_score_count" method="get" id="scored">
+    <div class="Platform">
+      <label for="Platform"></label>
+      <select placeholder="Platform" name="platform" id="platform_input" required>
+        <option disabled hidden selected>platform</option>
+        <option>disney</option>
+        <option>hulu</option>
+        <option>amazon</option>
+        <option>netflix</option>
+      </select>
+    </div>
+    <div class="scored">
+      <label for="scored"></label>
+      <input type="number" placeholder="scored" name="scored" id="scored" required>
+    </div>
+    <div class="year">
+      <label for="year"></label>
+      <input type="number" placeholder="year" name="year" id="year" required><br>
+    </div>
+  
+    <div class="submit">
+      <input type="submit" value="Try" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+
+<div id="container">
+  <h1>&bull; Number of movies per platform: &bull;</h1>
+  <div class="underline">
+  </div>
+  <form action="/get_count_platform" method="get" id="count_platforms_form">
+    <div class="platform">
+      <label for="platform"></label>
+      <select placeholder="platform" name="platform" id="platform_input" required>
+        <option disabled hidden selected>platform</option>
+        <option>disney</option>
+        <option>hulu</option>
+        <option>amazon</option>
+        <option>netflix</option>
+      </select>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Try" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+
+<div id="container">
+  <h1>&bull; Actor who repeats himself the most according to the platform: &bull;</h1>
+  <div class="underline">
+  </div>
+   <form action="/get_actor" method="get" id="contact_form">
+    <div class="platform">
+      <label for="platform"></label>
+      <select placeholder="platform" name="platform" id="Platform_input" required>
+        <option disabled hidden selected>platform</option>
+        <option>disney</option>
+        <option>hulu</option>
+        <option>amazon</option>
+        <option>netflix</option>
+      </select>
+    </div>
+    <div class="year">
+      <label for="year"></label>
+      <input type="number" placeholder="Year" name="year" id="year_input" required><br>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Try" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+
+<div id="container">
+  <h1>&bull; Te recomiendo una pelicula? &bull;</h1>
+  <div class="underline">
+  </div>
+   <form action="/get_predictions" method="get" id="contact_form">
+    <div class="user">
+      <label for="user"></label>
+      <input type="text" placeholder="user" name="userId" id="userId" required><br>
+    </div>
+    <div class="id">
+      <label for="id"></label>
+      <input type="text" placeholder="id" name="id" id="id" required><br>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Try" id="form_button" />
+    </div>
+
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+</body>
+<footer>
+  Rocío Aldana Méndez - Derechos reservados - PI N°1 Henry Labs Año 2023 V1.0
+ <p>A cargo de: Francisco Negrete - Marcos Audisio - Gonzalo Posee - Leandro Franchina - Jonathan Deilof - Paula Villar - Fernando Ashur -  Julio Mielniczuk - Pablo Romero - Dante Riccardini -  Juliana Aragón </p>
+</footer>
+
+<style type="text/css" media="screen">
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #dfafcd;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  appearance: none
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+</style>
+</html>
