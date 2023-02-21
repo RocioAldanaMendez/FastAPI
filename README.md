@@ -20,7 +20,6 @@
     <li><a href="#TECNOLOGÍAS">TECNOLOGÍAS UTILIZADAS</a></li>
     <li><a href="#DESARROLLADORES">DESARROLLADORES DEL PROYECTO</a></li>
     <li><a href="#VIDEO">VIDEO</a></li>
-    <li><a href="#CONCLUSIÓN">CONCLUSIÓN</a></li>
   </ol>
 </details>
 
@@ -103,6 +102,8 @@ Link deploy: https://huggingface.co/spaces/RoTesla/NISTELX
 
 ## VIDEO
 <img src="https://www.vectorlogo.zone/logos/youtube/youtube-ar21.svg"/> 
+https://www.youtube.com/watch?v=xjuB7wzt12k
 
-## CONCLUSIÓN
+Gracias por ver este desarrollo, podes seguir los futuros cambios dandole una estrellita en la parte superior derecha del repositorio. Podes Clonarlo, y/o podes hacer un PullRequest ya que todo aporte es bienvenido. 
+
 
