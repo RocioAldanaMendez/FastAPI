@@ -86,6 +86,12 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 
 ![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO1.gif)
 
+## MINI-DEMO2:
+- `Funcionalidad 1`: Consultar recomendación de pelicula ingresando id del usuario y el id de la pelicula.
+- `Demo`: 
+
+![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO2.gif)
+
 
 
 ## ACCESO-AL-PROYECTO
