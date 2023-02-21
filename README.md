@@ -14,7 +14,8 @@
     <li><a href="#ESTADO">ESTADO</a></li>
     <li><a href="#EDA-ETL">EDA - ETL</a></li>
     <li><a href="#FastAPI">FastAPI</a></li>
-    <li><a href="#MINI-DEMO">MINI-DEMO</a></li>
+    <li><a href="#MINI-DEMO1">MINI-DEMO1</a></li>
+    <li><a href="#MINI-DEMO2">MINI-DEMO2</a></li>
     <li><a href="#ACCESO-AL-PROYECTO">ACCESO AL PROYECTO</a></li>
     <li><a href="#TECNOLOGÍAS">TECNOLOGÍAS UTILIZADAS</a></li>
     <li><a href="#DESARROLLADORES">DESARROLLADORES DEL PROYECTO</a></li>
@@ -77,7 +78,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 + Actor más repetido por plataforma y año.
    La solicitud debe ser: get_actor(plataforma, año)
 
-## MINI-DEMO:
+## MINI-DEMO1:
 - `Funcionalidad 1`: Consultar película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.
 - `Funcionalidad 2`: Consultar cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
 - `Funcionalidad 3`: Consultar cantidad de películas por plataforma con filtro de PLATAFORMA
