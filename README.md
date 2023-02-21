@@ -9,12 +9,14 @@
     <li><a href="#header">TÍTULO E IMAGEN DE PORTADA</a></li>
      <li><a href="#INDICE">ÍNDICE</a></li>
      <li><a href="#INTRODUCCIÓN">INTRODUCCIÓN</a></li>
-      <li><a href="#OBJETIVO">OBJETIVO</a></li>
-    <li><a href="#DESCRIPCION">DESCRIPCIÓN</a></li>
+     <li><a href="#OBJETIVO">OBJETIVO</a></li>
+    <li><a href="#SCOPE">SCOPE OF WORK</a></li>
     <li><a href="#ESTADO">ESTADO</a></li>
-    <li><a href="#DEMOSTRACIÓNs">DEMOSTRACIÓN</a></li>
+    <li><a href="#EDA - ETL">EDA - ETL</a></li>
+     <li><a href="#FastAPI">FastAPI</a></li>
+    <li><a href="#MINI-DEMO">MINI-DEMO</a></li>
     <li><a href="#ACCESO">ACCESO AL PROYECTO</a></li>
-    <li><a href="#TECNOLOGÍAS UTILIZADAS">TECNOLOGÍAS UTILIZADAS</a></li>
+    <li><a href="#TECNOLOGÍAS">TECNOLOGÍAS UTILIZADAS</a></li>
     <li><a href="#DESARROLLADORES">DESARROLLADORES DEL PROYECTO</a></li>
     <li><a href="#CONCLUSIÓN">CONCLUSIÓN</a></li>
   </ol>
@@ -74,7 +76,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 + Actor más repetido por plataforma y año.
    La solicitud debe ser: get_actor(plataforma, año)
 
-## DEMOSTRACIÓN:
+## MINI-DEMO:
 - `Funcionalidad 1`: Consultar película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.
 - `Funcionalidad 2`: Consultar cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
 - `Funcionalidad 3`: Consultar cantidad de películas por plataforma con filtro de PLATAFORMA
