@@ -87,7 +87,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 
 ## ACCESO AL PROYECTO
             ## 🛠️ Abre y ejecuta el proyecto
-            -  Para correr la api completa es necesario descomprimir el archivo que contiene el modelo, para que la api consuma de ese archivo, y como se subió la                     carpeta donde se desarrolló la api completa, debe correr.
+            -  Para correr la api completa es necesario descomprimir el archivo que contiene el modelo, para que la api consuma de ese archivo, y como se subió la carpeta donde se desarrolló la api completa, debe correr.
             -Para visualizar la salida final en los Deploys podes ir al link de punto 7 y 8 del scope of work, o ingresar al alrchivo txt que contiene todos los links.
             
  
