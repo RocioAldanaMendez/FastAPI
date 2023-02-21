@@ -44,7 +44,7 @@ La propuesta de trabajo se llevará a cabo en las siguientes etapas:
 6. Ajuste de parámetros del modelo
 7. Realización de un deployment en Delta 
 
-![arquitectura](https://github.com/RocioAldanaMendez/Streaming_Platforms/blob/main/aseets/structure.jpg)
+![arquitectura](https://github.com/RocioAldanaMendez/Streaming_Platforms/blob/main/aseets/structure.png)
 
 ## ESTADO:
 <h4 align="center">
