@@ -69,9 +69,25 @@ Para la creación de la API se utilizó el archivo main.py. Con eso, se construy
 
 ## MINI-DEMO1:
 - `Funcionalidad 1`: Consultar película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.
+
+                    La consulta debe generarse con el siguiente formato: {year}/{platform}/{duration_type}: 200/netflix/min
+                    
 - `Funcionalidad 2`: Consultar cantidad de películas por plataforma con un puntaje mayor a XX en determinado año
+
+                   Formato: {platform}/{scored}/{year}: netflix/(numeros del 0 al 5)/2000
+                    
 - `Funcionalidad 3`: Consultar cantidad de películas por plataforma con filtro de PLATAFORMA
+
+                    La consulta debe generarse con el siguiente formato: {platform}: netflix
+                    
 - `Funcionalidad 4`: Consultar actor que más se repite según plataforma y año.
+
+                    La consulta debe generarse con el siguiente formato: {platform}/{year}/: netflix/2000
+                    
+  Donde plataforma puede ser: netflix, hulu, disney, amazon.
+  
+  Y duration_time puede ser: min o season.
+  
 - `Demo`: 
 
 ![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO1.gif)
@@ -80,6 +96,9 @@ Link deploy: https://deta.space/discovery/r/cdbdpvvwlphtxscn
 
 ## MINI-DEMO2:
 - `Funcionalidad 1`: Consultar recomendación de pelicula ingresando id del usuario y el id de la pelicula.
+
+                    La consulta debe generarse con el siguiente formato: {userId}/{id}: 123/ns123
+                    
 - `Demo`: 
 
 ![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO2.gif)
