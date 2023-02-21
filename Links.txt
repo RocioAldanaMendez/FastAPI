@@ -1,0 +1,25 @@
+------------------------------------------------------------------
+|			Deploy DETA SPACE: 4 consultas			|
+------------------------------------------------------------------
+
+https://deta.space/discovery/r/cdbdpvvwlphtxscn
+
+
+------------------------------------------------------------------
+|			Deploy gradio: Recomendación de peliculas		|
+------------------------------------------------------------------
+
+https://huggingface.co/spaces/RoTesla/NISTELX
+
+------------------------------------------------------------------
+|				Hoja de ruta					|
+------------------------------------------------------------------
+
+https://drive.google.com/file/d/1GdKfHP3M5Fjwrgl0BVumEihnrTobJXik/view?usp=sharing
+
+
+------------------------------------------------------------------
+|				Esctructura						|
+------------------------------------------------------------------
+
+https://drive.google.com/file/d/1M1mZCw7Y9buPsHZ5Gz3Q5YsC0eECnE1x/view?usp=sharing
