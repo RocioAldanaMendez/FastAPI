@@ -84,7 +84,7 @@ Para este proyecto solo se solicitaron 4 tipos de consultas.
 - `Funcionalidad 4`: Consultar actor que más se repite según plataforma y año.
 - `Demo`: 
 
-![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/assets/DEMO1.gif)
+![demo](https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/DEMO1.gif)
 
 
 
