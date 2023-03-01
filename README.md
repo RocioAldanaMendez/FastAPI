@@ -113,6 +113,10 @@ Link deploy: https://huggingface.co/spaces/RoTesla/NISTELX
  
 ## TECNOLOGÍAS
  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width=40px height=40px/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width=40px height=40px/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width=40px height=40px/> 
+<img src="https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/gradio-logo.svg" alt="gradio" width="80" height="40"/> </a>
+<img src="https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/FAST.png" alt="fastapi" width="80" height="40"/></a>
+<img src="https://github.com/RocioAldanaMendez/FastAPI/blob/main/aseets/logo-hugging-face.png" alt="huggingface" width="90" height="40"/> 
+<img src="https://github.com/RocioAldanaMendez/Meteorite-Landings/blob/main/assets/deta.png" alt="deta" width="40" height="40"/> 
 
 ## DESARROLLADORES
 
